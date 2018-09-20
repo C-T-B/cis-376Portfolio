@@ -1,0 +1,68 @@
+* {
+				font-family: 'Roboto mono', sans-serif;
+				color: #FFFFFF;
+				text-align: center;}
+			body {
+				width: 90%;
+				margin: 0 auto;
+				background-image: url("https://monsterdesignstudios.com/wp-content/uploads/2014/09/website-design-slider-background-stockton.jpg");
+			}
+			#content {
+				overflow: auto;}
+			#nav, #feature , #footer {
+				margin: 1%;
+				text-align: left; 
+				word-wrap: break-word;
+				}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+			.column3 {
+				margin-right: 0%;}
+			li {
+				display: inline;
+				padding: 0.5em;}
+			.h3 { 
+			position: absolute;
+			top: 50%;
+			left: 50%; }
+			#nav, #footer {
+				background-color: #808080;
+				padding: 0.5em 0;}
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;
+				background-color: #808080;}
+			#links {
+				height: 30em;
+				margin-bottom: 1em;
+				background-color: #808080;
+				text-align: right;
+                list-style-position: inside;
+			}
+			#list-container ul li {
+				float: left;
+				clear: left;
+				}
+			#about {
+				height: 30em;
+				margin-bottom: 1em;
+				background-color: #808080;
+				word-wrap: break-word;
+			}
+			#me {
+				position: relative;
+				right: 25%;
+				top: 05%;
+			}
+			#centered {
+				position: relative; 
+				left: 90%;
+				transform: translateX(-50%);
+			}
+			#about-text {
+				position:absolute;
+				top: 25%;
+				left: 40%;
+			}
