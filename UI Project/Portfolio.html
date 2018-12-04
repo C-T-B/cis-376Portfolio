@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub Redone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+	<!-- Code to recreate Github's Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+	<div class="githubcat">
+  <a class="navbar-brand" href="#"><img src="img/marketplace.svg"></a>
+	</div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+			<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search or jump to..." aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+		 </li>
+        <li class="nav-item">
+        <a class="nav-link" href="https://github.com/pulls">Pull requests</a>
+      </li> 
+		 <li class="nav-item">
+		  <a class="nav-link" href="https://github.com/issues">Issues</a>
+      </li>  
+		 <li class="nav-item">
+        <a class="nav-link" href="https://github.com/marketplace">Marketplace</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/explore">Explore</a>
+      </li>
+    </ul>
+	<form class="form-inline my-2 my-lg-0">
+      <img src="img/B_Mfi1xn_mini.jpg">
+      <h5>C-T-B</h5>
+    </form>
+  </div>
+</nav>
+	
+<hr class="margin-top hide">
+
+<div class="container">
+	<div class="mp-action-list">
+		<div class="content">
+				<h1 class="mp-h1">C-T-B/cis-376Portfolio/FMI/</h1>
+			<div class="inner-container" onclick="onClickNew()">
+				<img src="https://res.cloudinary.com/cozen/image/upload/v1464983515/Plus-96_qhgrxz.png">
+				<p>Create New Directory</p>
+			</div>
+			<div class="separator-right"></div>
+			<div class="inner-container" onclick="onClickNew()">
+				<img src="https://res.cloudinary.com/cozen/image/upload/v1464983515/Plus-96_qhgrxz.png">
+				<p>Upload files</p>
+			</div>
+			<div class="separator-right"></div>
+			<div class="inner-container" onclick="onClickDelete()">
+				<img class="space" src="https://res.cloudinary.com/cozen/image/upload/v1464983565/Delete-104_oofhhx.png">
+				<p>Delete</p>
+			</div>
+			<div class="separator-right"></div>
+			<div class="inner-container" onclick="onClickExport()">
+				<img class="space" src="https://res.cloudinary.com/cozen/image/upload/v1464983565/CSV-104_liaz2v.png">
+				<p>Export</p>
+			</div>
+		</div>
+	</div>
+	<table class="mp-list" cellspacing="0" cellpadding="0">
+		<thead>
+			<tr>
+				<th>
+					<input type="checkbox" class="checkbox" onclick="onClickTrAll(this)">
+				</th>
+				<th>File Name</th>
+				<th></th>
+				<th>File Type</th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th>Size</th>
+				<th>Date Last Modified</th>
+			</tr>
+		</thead>
+		<tbody id="mp-list-tbody">
+			<tr>
+				<td><input type="checkbox" class="checkbox"></td>
+				<td>CIS-Project</td>
+				<td></td>
+				<td>Folder</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>09/20/2018</td>
+			</tr>	
+			<tr>
+				<td>
+					<input type="checkbox" class="checkbox">
+				</td>
+				<td><a href="FMI.html">FMI</a></td>
+				<td></td>
+				<td>Folder</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>10/18/2018</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" class="checkbox">
+				</td>
+				<td>collapse -modal</td>
+				<td></td>
+				<td>Folder</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>11/15/2018</td>
+			</tr>
+			<td>
+			<input type="checkbox" class="checkbox">
+				</td>
+				<td>collapse</td>
+				<td></td>
+				<td>Folder</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>11/15/2018</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" class="checkbox"></td>
+				<td>helloWorld</td>
+				<td></td>
+				<td>Folder</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>08/28/2018</td>
+			</tr>		
+		</tbody>
+	</table>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
